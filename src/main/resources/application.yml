@@ -1,0 +1,18 @@
+name: feiding
+server: 
+  port: 8761
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  serviceUrl:
+    defaultZone: http://localhost:8761/eureka/
+    
+spring:
+  #profiles: dev
+  datasource: 
+    url: jdbc:mysql://23.95.9.47:3306/xf
+    username: root
+    password: jinghua1
+    driver-class-name: com.mysql.jdbc.Driver
