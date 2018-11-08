@@ -4,6 +4,7 @@
 	<select id="selectProduct" resultType="java.util.Map">
 		select * from product
 	</select>
-
+	
+	
 
 </mapper>
