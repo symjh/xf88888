@@ -1,6 +1,8 @@
 name: feiding
 server: 
   port: 8761
+  servlet:
+    context-path: /xf
 
 eureka:
   client:
